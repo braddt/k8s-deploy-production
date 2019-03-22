@@ -23,7 +23,7 @@ spec:
         host: front-end.production.svc.cluster.local
         subset: v2
       weight: 10 #v2
-    - destionation:
+    - destination:
         host: front-end.production.svc.cluster.local
         subset: v2
       weight: 0 #v3
